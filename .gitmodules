@@ -1,0 +1,6 @@
+[submodule "IteratorTasks"]
+	path = IteratorTasks
+	url = git@github.com:OrangeCube/IteratorTasks.git
+[submodule "MinimumAsyncBridge"]
+	path = MinimumAsyncBridge
+	url = git@github.com:OrangeCube/MinimumAsyncBridge.git

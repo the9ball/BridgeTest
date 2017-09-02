@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net35</TargetFramework>
+    <PostBuildEvent>"$(SolutionDir)..\..\MinimumAsyncBridge\tools\LayoutAutoToSequencial\bin\Release\LayoutAutoToSequencial.exe" "$(TargetDir)"
+pushd "$(NuGetPackageRoot)CopyDllsAfterBuild\2.1.1\tools\" &amp; postbuild "$(ProjectDir)" "$(TargetDir)" &amp; popd</PostBuildEvent>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="CopyDllsAfterBuild" Version="2.1.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\IteratorTasks\IteratorTasks\IteratorTasks.csproj" />
+    <ProjectReference Include="..\BridgeTest\BridgeTest.csproj" />
+  </ItemGroup>
+
+</Project>

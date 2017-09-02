@@ -1,0 +1,67 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26730.10
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BridgeTest", "BridgeTest\BridgeTest.csproj", "{31A66D96-FA38-4DF6-BA80-F3EE9AC7C131}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CopyDll", "CopyDll\CopyDll.csproj", "{86FCA72C-0301-49A0-8EDD-EABAA74E9971}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IteratorTasks", "..\IteratorTasks\IteratorTasks\IteratorTasks.csproj", "{6C013095-537E-428A-9632-F5B18EE0EDCA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "lib", "lib", "{19E72467-4F3F-4FC8-BED9-7889A5EFACA1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LayoutAutoToSequencial", "..\MinimumAsyncBridge\tools\LayoutAutoToSequencial\LayoutAutoToSequencial.csproj", "{2B8AFF6C-BF21-46CA-A63C-1F5057939CE0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		IosDebug|Any CPU = IosDebug|Any CPU
+		IosRelease|Any CPU = IosRelease|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{31A66D96-FA38-4DF6-BA80-F3EE9AC7C131}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{31A66D96-FA38-4DF6-BA80-F3EE9AC7C131}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{31A66D96-FA38-4DF6-BA80-F3EE9AC7C131}.IosDebug|Any CPU.ActiveCfg = Debug|Any CPU
+		{31A66D96-FA38-4DF6-BA80-F3EE9AC7C131}.IosDebug|Any CPU.Build.0 = Debug|Any CPU
+		{31A66D96-FA38-4DF6-BA80-F3EE9AC7C131}.IosRelease|Any CPU.ActiveCfg = Release|Any CPU
+		{31A66D96-FA38-4DF6-BA80-F3EE9AC7C131}.IosRelease|Any CPU.Build.0 = Release|Any CPU
+		{31A66D96-FA38-4DF6-BA80-F3EE9AC7C131}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{31A66D96-FA38-4DF6-BA80-F3EE9AC7C131}.Release|Any CPU.Build.0 = Release|Any CPU
+		{86FCA72C-0301-49A0-8EDD-EABAA74E9971}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{86FCA72C-0301-49A0-8EDD-EABAA74E9971}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{86FCA72C-0301-49A0-8EDD-EABAA74E9971}.IosDebug|Any CPU.ActiveCfg = Debug|Any CPU
+		{86FCA72C-0301-49A0-8EDD-EABAA74E9971}.IosDebug|Any CPU.Build.0 = Debug|Any CPU
+		{86FCA72C-0301-49A0-8EDD-EABAA74E9971}.IosRelease|Any CPU.ActiveCfg = Release|Any CPU
+		{86FCA72C-0301-49A0-8EDD-EABAA74E9971}.IosRelease|Any CPU.Build.0 = Release|Any CPU
+		{86FCA72C-0301-49A0-8EDD-EABAA74E9971}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{86FCA72C-0301-49A0-8EDD-EABAA74E9971}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6C013095-537E-428A-9632-F5B18EE0EDCA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6C013095-537E-428A-9632-F5B18EE0EDCA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6C013095-537E-428A-9632-F5B18EE0EDCA}.IosDebug|Any CPU.ActiveCfg = IosDebug|Any CPU
+		{6C013095-537E-428A-9632-F5B18EE0EDCA}.IosDebug|Any CPU.Build.0 = IosDebug|Any CPU
+		{6C013095-537E-428A-9632-F5B18EE0EDCA}.IosRelease|Any CPU.ActiveCfg = IosRelease|Any CPU
+		{6C013095-537E-428A-9632-F5B18EE0EDCA}.IosRelease|Any CPU.Build.0 = IosRelease|Any CPU
+		{6C013095-537E-428A-9632-F5B18EE0EDCA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6C013095-537E-428A-9632-F5B18EE0EDCA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2B8AFF6C-BF21-46CA-A63C-1F5057939CE0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2B8AFF6C-BF21-46CA-A63C-1F5057939CE0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2B8AFF6C-BF21-46CA-A63C-1F5057939CE0}.IosDebug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2B8AFF6C-BF21-46CA-A63C-1F5057939CE0}.IosDebug|Any CPU.Build.0 = Debug|Any CPU
+		{2B8AFF6C-BF21-46CA-A63C-1F5057939CE0}.IosRelease|Any CPU.ActiveCfg = Release|Any CPU
+		{2B8AFF6C-BF21-46CA-A63C-1F5057939CE0}.IosRelease|Any CPU.Build.0 = Release|Any CPU
+		{2B8AFF6C-BF21-46CA-A63C-1F5057939CE0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2B8AFF6C-BF21-46CA-A63C-1F5057939CE0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{6C013095-537E-428A-9632-F5B18EE0EDCA} = {19E72467-4F3F-4FC8-BED9-7889A5EFACA1}
+		{2B8AFF6C-BF21-46CA-A63C-1F5057939CE0} = {19E72467-4F3F-4FC8-BED9-7889A5EFACA1}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D148E00B-FF5E-4DB6-B413-64F344D350DA}
+	EndGlobalSection
+EndGlobal
